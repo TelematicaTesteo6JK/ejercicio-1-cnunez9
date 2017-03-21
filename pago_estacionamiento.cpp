@@ -25,8 +25,17 @@ void casos_de_prueba(){
     cout << "TEST CASES" << endl;
     // Agrega tus casos de prueba
 
-
-
+    cout <<" Test data / Expected Result / Actual Result / Pass-Fail" <<endl;
+    cout << "-4/E/"<<pago_estacionamiento(-4) <<endl;
+    cout << "3/30/"<<pago_estacionamiento(3) <<endl;
+    cout << "7/63/"<<pago_estacionamiento(7) <<endl;
+    cout << "9/13/"<<pago_estacionamiento(9)  <<endl;
+    cout << "0/0/"<<pago_estacionamiento(0) <<endl;
+    cout << "1/10/"<<pago_estacionamiento(1) <<endl;
+    cout << "5/50/"<<pago_estacionamiento(5)  <<endl;
+    cout << "6/54/"<< pago_estacionamiento(6) <<endl;
+    cout << "10/90/"<<pago_estacionamiento(10)  <<endl;
+    cout << "11/77/"<<pago_estacionamiento(11)   <<endl;
     cout << endl;
 
 }
